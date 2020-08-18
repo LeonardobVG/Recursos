@@ -18,8 +18,7 @@ button type="button" id="botao" onclick="location.href='tela-5.html'" class="btn
 ### Adiciona Counter
 ```
 <script>    document.getElementById("botao").disabled= true; </script>
-```
-```
+
 <script>    
 var counter = 0;
 function myTimer() {  
