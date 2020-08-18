@@ -37,6 +37,7 @@ function myTimer() {  
 ```
 ### VIMEO
 ```
+<script>
 var iframe = document.getElementById('vimeo-video'); //id do video 
     var player = new Vimeo.Player(iframe);
 
@@ -57,6 +58,7 @@ var iframe = document.getElementById('vimeo-video'); //id do video
       json.video.finished = true;
       console.log(JSON.stringify(json));
     });
+</script>
  ```
   
 ### QUESTÕES/ATIVIDADES
